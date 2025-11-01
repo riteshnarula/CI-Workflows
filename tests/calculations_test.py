@@ -39,11 +39,10 @@ def test_get_nth_fibonacci_one():
 
 
 def test_get_nth_fibonacci_ten():
-    """Test with n=10."""
+    # Test with n=10.
     n = 10
     result = get_nth_fibonacci(n)
     assert result == 89
-
 
 def test_area_of_circle_negative_radius():
     """Test with a negative radius to raise ValueError."""
